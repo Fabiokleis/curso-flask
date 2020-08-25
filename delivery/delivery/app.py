@@ -2,7 +2,7 @@ from flask import Flask
 
 from delivery.ext import config
 
-
+# alteração com o comentario...
 def create_app():
     """Factory to create a Flask app based on factory pattern"""
     app = Flask(__name__)
